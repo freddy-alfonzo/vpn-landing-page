@@ -18,7 +18,7 @@ const Product = () => (
         Easily pay and enjoy your plan
       </h2>
       <p className={`${styles.paragraph} text-justify mt-5`}>
-        30-day money-back guarantee. If you’re not 100% satisfied with XayaVPN,
+        30 day money back guarantee. If you’re not 100% satisfied with XayaVPN,
         let us know within 30 days and we’ll refund your payment. It’s that
         simple. Download the XayaVPN mobile app for iOS or Android here.
       </p>
