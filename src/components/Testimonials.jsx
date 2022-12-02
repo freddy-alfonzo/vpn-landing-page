@@ -11,7 +11,7 @@ const Testimonials = () => (
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h1 className={`${styles.heading2} text-center`}>
-        What peaple are saying about us
+        What people are saying about us
       </h1>
     </div>
     <div className="flex flex-col md:flex-row justify-center w-full feedback-container relative z-[1]">
