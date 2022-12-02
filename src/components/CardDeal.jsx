@@ -5,10 +5,10 @@ import Button from "./Button";
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <h2 className={`${styles.heading2} text-center md:text-start`}>
         Find a better card deal in few easy steps
       </h2>
-      <p className={`${styles.paragraph} text-justify mt-5`}>
+      <p className={`${styles.paragraph} mt-5 w-[100%] text-center md:text-start`}>
         Choose a payment method and start enjoying the best VPN in the world
       </p>
 

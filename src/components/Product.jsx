@@ -14,7 +14,7 @@ const Product = () => (
     </div>
 
     <div className={layout.sectionInfo}>
-      <h2 className={`${styles.heading2} lg:max-w-[620px]`}>
+      <h2 className={`${styles.heading2} lg:max-w-[620px] text-center `}>
         Easily pay and enjoy your plan
       </h2>
       <p className={`${styles.paragraph} text-justify mt-5`}>

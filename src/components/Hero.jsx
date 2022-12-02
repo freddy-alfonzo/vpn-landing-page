@@ -7,17 +7,17 @@ const Hero = () => (
     <div
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
-      <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+      <div className="flex flex-row items-center py-[6px] px-2 bg-discount-gradient rounded-[10px] mb-2 mx-auto md:mx-0">
         <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p
-          className={`${styles.paragraph} xs:text-[18px] text-[15px] md:text-start text-center`}
+          className={`${styles.paragraph} xs:text-[18px] text-[13px] md:text-start`}
         >
           <span className="text-white">20%</span> Discount for {"  "}
           <span> 1 Month</span> Account
         </p>
       </div>
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[47px] text-white ss:leading-[100px]">
+        <h1 className="flex-1 font-poppins font-semibold sm:text-[72px] text-[43px] text-white text-center ss:leading-[100px] md:text-start">
           The Next <br className="hidden" />{" "}
           <span className="text-gradient">Generation</span>{" "}
         </h1>
@@ -25,7 +25,7 @@ const Hero = () => (
           <GetStarted />
         </div>
       </div>
-      <h1 className="font-poppins font-semibold ss:text-[64px] text-[47px] text-white ss:leading-[100px] w-full">
+      <h1 className="font-poppins font-semibold sm:text-[64px] text-[43px] text-white ss:leading-[100px] w-full text-center md:text-start">
         VPN Network{" "}
       </h1>
       <p className={`${styles.paragraph} max-w-[100%] mt-5 text-justify`}>

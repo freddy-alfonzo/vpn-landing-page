@@ -6,7 +6,7 @@ const FeatureCard = ({ icon, tittle, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
-    } feature-card`}
+    } feature-card w-[100%]`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
@@ -30,7 +30,7 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={`${layout.sectionInfo}`}>
         <h2
-          className={`${styles.heading2} md:mt-10 mt-0  text-[35px] xs:text-[35px] md:text-[42px]`}
+          className={`${styles.heading2} md:mt-10 mt-0  text-[32px] xs:text-[35px] md:text-[42px] text-center md:text-start`}
         >
           Enjoy a fast and stable connection anywhere
         </h2>
